@@ -10,7 +10,7 @@ public class Character : MonoBehaviour
     private Rigidbody rb;
     private string selectedSkill = "";
 
-    public  Animator playerAnim;
+    public Animator playerAnim;
 
     void Start()
     {
@@ -35,7 +35,14 @@ public class Character : MonoBehaviour
 
         rb.MovePosition(transform.position + movement * moveSpeed * Time.deltaTime);
 
-        //playerAnim.SetBool("run", true);
+        if (moveHorizontal != 0 || moveVertical != 0)
+        {
+            playerAnim.SetBool("run", true);
+        }
+        else
+        {
+            playerAnim.SetBool("run", false);
+        }
     }
 
     void Jump()
