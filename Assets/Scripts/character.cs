@@ -10,6 +10,8 @@ public class Character : MonoBehaviour
     private Rigidbody rb;
     private string selectedSkill = "";
 
+    public  Animator playerAnim;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -32,6 +34,8 @@ public class Character : MonoBehaviour
         movement.y = 0;
 
         rb.MovePosition(transform.position + movement * moveSpeed * Time.deltaTime);
+
+        //playerAnim.SetBool("run", true);
     }
 
     void Jump()
