@@ -8,6 +8,8 @@ public class Character : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 5f;
     public float spellRange = 100f;
+
+    public GameObject gameOverScreen;
     public Image crosshairImage;
 
     private Rigidbody rb;
@@ -189,13 +191,23 @@ public class Character : MonoBehaviour
     void Die()
     {
         playerAnim.SetTrigger("death");
+        StartCoroutine(ShowGameOverScreen());
     }
     
 
-    private void OnCollisionEnter(Collision other) {
-        if(other.gameObject.tag == "fall")
+   private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "fall")
         {
             Die();
+            
         }
+    }
+
+    IEnumerator ShowGameOverScreen()
+    {
+        yield return new WaitForSeconds(2.0f);
+        gameOverScreen.SetActive(true);
+        Debug.Log("Game OVER!");
     }
 }
