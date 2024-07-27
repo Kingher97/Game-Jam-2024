@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ground
   - mob
+  - fall
   layers:
   - Default
   - TransparentFX

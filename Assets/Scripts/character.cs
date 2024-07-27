@@ -12,13 +12,15 @@ public class Character : MonoBehaviour
 
     private Rigidbody rb;
     private string selectedSkill = "";
+    private bool isCastingSpell = false;
 
     public Animator playerAnim;
     private LineRenderer lineRenderer;
     private Camera mainCamera;
     public float horizontalOffset = 2f;
 
-    void Start(){
+    void Start()
+    {
         rb = GetComponent<Rigidbody>();
 
         lineRenderer = GetComponent<LineRenderer>();
@@ -38,16 +40,21 @@ public class Character : MonoBehaviour
         {
             crosshairImage.enabled = true;
         }
-}
+    }
 
-    void Update(){
-        Move();
-        Jump();
+    void Update()
+    {
+        if (!isCastingSpell)
+        {
+            Move();
+            HandleJump();
+        }
         HandleSpellsSelection();
         HandleSpellCasting();
     }
 
-    void Move(){
+    void Move()
+    {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
 
@@ -56,38 +63,76 @@ public class Character : MonoBehaviour
 
         rb.MovePosition(transform.position + movement * moveSpeed * Time.deltaTime);
 
-        if (moveHorizontal != 0 || moveVertical != 0){
+        if (moveHorizontal != 0 || moveVertical != 0)
+        {
             playerAnim.SetBool("run", true);
         }
-        else{
+        else
+        {
             playerAnim.SetBool("run", false);
         }
     }
 
-    void Jump(){
+    void HandleJump()
+    {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            playerAnim.SetTrigger("jump");
+            StartCoroutine(DelayedJump());
         }
     }
 
-    void HandleSpellsSelection(){
+    IEnumerator DelayedJump()
+    {
+        yield return new WaitForSeconds(0.3f); // 1 second delay
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+    }
+
+    void HandleSpellsSelection()
+    {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             selectedSkill = "1";
+            Debug.Log("1 selected");
+            playerAnim.SetTrigger("spell");
+            isCastingSpell = true;
+            StartCoroutine(EndSpellAnimation());
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             selectedSkill = "2";
+            Debug.Log("2 selected");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            selectedSkill = "3";
+            Debug.Log("3 selected");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            selectedSkill = "4";
+            Debug.Log("4 selected");
+        }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            selectedSkill = "R";
+            Debug.Log("R selected");
         }
     }
 
-    void HandleSpellCasting(){
-        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)){
-            if (!string.IsNullOrEmpty(selectedSkill)){
+    void HandleSpellCasting()
+    {
+        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+        {
+            if (!string.IsNullOrEmpty(selectedSkill))
+            {
                 if (selectedSkill == "2")
                 {
                     CastShadowBall();
+                }
+                else
+                {
+                    Debug.Log(selectedSkill + " launch with " + (Input.GetMouseButtonDown(0) ? "left" : "right") + " click");
                 }
             }
         }
@@ -95,18 +140,14 @@ public class Character : MonoBehaviour
 
     void CastShadowBall()
     {
-
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, spellRange))
         {
-            if (hit.collider != null)
+            if (hit.collider != null && hit.collider.CompareTag("mob"))
             {
-                if (hit.collider.CompareTag("mob"))
-                {
-                    Destroy(hit.collider.gameObject);
-                }
+                Destroy(hit.collider.gameObject);
             }
             ShowRay(ray.origin, hit.point);
         }
@@ -115,6 +156,7 @@ public class Character : MonoBehaviour
             ShowRay(ray.origin, ray.origin + ray.direction * spellRange);
         }
     }
+
     void ShowRay(Vector3 start, Vector3 end)
     {
         StartCoroutine(ShowRayCoroutine(start, end));
@@ -129,5 +171,31 @@ public class Character : MonoBehaviour
         yield return new WaitForSeconds(3f);
 
         lineRenderer.positionCount = 0;
+    }
+
+    IEnumerator EndSpellAnimation()
+    {
+        yield return new WaitForSeconds(2.3f); // spell animation duration
+        isCastingSpell = false;
+    }
+
+    // Uncomment these sections to implement damage and death animations
+    /*
+    void TakeDamage()
+    {
+        playerAnim.SetTrigger("damage");
+    }
+````*/
+    void Die()
+    {
+        playerAnim.SetTrigger("death");
+    }
+    
+
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.tag == "fall")
+        {
+            Die();
+        }
     }
 }
