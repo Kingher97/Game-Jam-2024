@@ -11,6 +11,7 @@ public class Character : MonoBehaviour
 
     public GameObject gameOverScreen;
     public Image crosshairImage;
+    public Slider healthSlider; // Reference to the health slider
 
     private Rigidbody rb;
     private string selectedSkill = "";
@@ -105,21 +106,7 @@ public class Character : MonoBehaviour
             selectedSkill = "2";
             Debug.Log("2 selected");
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3))
-        {
-            selectedSkill = "3";
-            Debug.Log("3 selected");
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha4))
-        {
-            selectedSkill = "4";
-            Debug.Log("4 selected");
-        }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            selectedSkill = "R";
-            Debug.Log("R selected");
-        }
+        
     }
 
     void HandleSpellCasting()
@@ -181,26 +168,18 @@ public class Character : MonoBehaviour
         isCastingSpell = false;
     }
 
-    // Uncomment these sections to implement damage and death animations
-    /*
-    void TakeDamage()
-    {
-        playerAnim.SetTrigger("damage");
-    }
-````*/
     void Die()
     {
         playerAnim.SetTrigger("death");
         StartCoroutine(ShowGameOverScreen());
+        StartCoroutine(ReduceHealthSlider());
     }
-    
 
-   private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.tag == "fall")
         {
             Die();
-            
         }
     }
 
@@ -210,4 +189,22 @@ public class Character : MonoBehaviour
         gameOverScreen.SetActive(true);
         Debug.Log("Game OVER!");
     }
+
+    IEnumerator ReduceHealthSlider()
+    {
+        while (healthSlider.value > 0)
+        {
+            healthSlider.value -= Time.deltaTime * 2; // Adjust the speed as needed
+            yield return null;
+        }
+        healthSlider.value = 0;
+    }
+
+    // Uncomment these sections to implement damage and death animations
+    /*
+    void TakeDamage()
+    {
+        playerAnim.SetTrigger("damage");
+    }
+    */
 }

@@ -8542,7 +8542,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.655
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -69369,7 +69369,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.655
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -85944,8 +85944,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 3.0252}
-  m_SizeDelta: {x: 20, y: -41.1434}
+  m_AnchoredPosition: {x: 1.4519958, y: -0.16799927}
+  m_SizeDelta: {x: 22.904, y: -39.2074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1996059904
 MonoBehaviour:
@@ -86584,7 +86584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 3.0252}
+  m_AnchoredPosition: {x: 0.19999695, y: 0.20000076}
   m_SizeDelta: {x: 20, y: -41.1434}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013884953
@@ -97494,7 +97494,7 @@ Transform:
   m_GameObject: {fileID: 7036213050341270097}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.8808288, z: 0, w: 0.473435}
-  m_LocalPosition: {x: 10.126, y: -7.5, z: -65.39}
+  m_LocalPosition: {x: 9.28, y: -7.5, z: -65.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -97569,6 +97569,7 @@ MonoBehaviour:
   spellRange: 100
   gameOverScreen: {fileID: 8156936645826314828}
   crosshairImage: {fileID: 1721126495}
+  healthSlider: {fileID: 1637423177}
   playerAnim: {fileID: 1140642776}
   horizontalOffset: 20
 --- !u!4 &8888506345211979054
