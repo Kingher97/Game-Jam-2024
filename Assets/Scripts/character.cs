@@ -129,7 +129,11 @@ public class Character : MonoBehaviour
 
     void CastShadowBall()
     {
-        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        Vector3 crosshairWorldPosition = mainCamera.ScreenToWorldPoint(new Vector3(crosshairImage.rectTransform.position.x, crosshairImage.rectTransform.position.y, mainCamera.nearClipPlane));
+
+        Vector3 direction = (mainCamera.transform.forward).normalized;
+
+        Ray ray = new Ray(crosshairWorldPosition, direction);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, spellRange))
@@ -145,6 +149,8 @@ public class Character : MonoBehaviour
             ShowRay(ray.origin, ray.origin + ray.direction * spellRange);
         }
     }
+
+
 
     void ShowRay(Vector3 start, Vector3 end)
     {
