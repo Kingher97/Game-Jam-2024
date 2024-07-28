@@ -12,6 +12,7 @@ public class Character : MonoBehaviour
     public GameObject gameOverScreen;
     public Image crosshairImage;
     public Slider healthSlider; // Reference to the health slider
+    public Slider shadowSlider;
 
     private Rigidbody rb;
     private string selectedSkill = "";
@@ -21,6 +22,10 @@ public class Character : MonoBehaviour
     private LineRenderer lineRenderer;
     private Camera mainCamera;
     public float horizontalOffset = 2f;
+
+    public GameObject shadowBody;
+    public GameObject shadowBallCast;
+    public GameObject shadowBall;
 
     void Start()
     {
@@ -96,10 +101,7 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             selectedSkill = "1";
-            Debug.Log("1 selected");
-            playerAnim.SetTrigger("spell");
-            isCastingSpell = true;
-            StartCoroutine(EndSpellAnimation());
+            //Debug.Log("1 selected");
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
@@ -115,15 +117,41 @@ public class Character : MonoBehaviour
         {
             if (!string.IsNullOrEmpty(selectedSkill))
             {
-                if (selectedSkill == "2")
+                if (selectedSkill == "1")
                 {
-                    CastShadowBall();
+                    playerAnim.SetTrigger("spell");
+                    isCastingSpell = true;
+                    StartCoroutine(EndSpellAnimation());
+                    TriggerParticleSystem(shadowBody);
+                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.2f));
                 }
-                else
+                else if (selectedSkill == "2")
                 {
-                    Debug.Log(selectedSkill + " launch with " + (Input.GetMouseButtonDown(0) ? "left" : "right") + " click");
+                    TriggerParticleSystem(shadowBallCast);
+                    CastShadowBall();
+                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
                 }
             }
+        }
+    }
+
+    void TriggerParticleSystem(GameObject particleSystemObject)
+    {
+        if (particleSystemObject != null)
+        {
+            ParticleSystem ps = particleSystemObject.GetComponent<ParticleSystem>();
+            if (ps != null)
+            {
+                ps.Play(); // Avvia il ParticleSystem
+            }
+            else
+            {
+                Debug.LogWarning("Il GameObject non contiene un ParticleSystem.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Il riferimento al GameObject è nullo.");
         }
     }
 
@@ -142,19 +170,17 @@ public class Character : MonoBehaviour
             {
                 Destroy(hit.collider.gameObject);
             }
-            ShowRay(ray.origin, hit.point);
+            FireShadowBall(ray.origin, hit.point);
         }
         else
         {
-            ShowRay(ray.origin, ray.origin + ray.direction * spellRange);
+            FireShadowBall(ray.origin, ray.origin + ray.direction * spellRange);
         }
     }
-
-
-
-    void ShowRay(Vector3 start, Vector3 end)
+    void FireShadowBall(Vector3 start, Vector3 end)
     {
-        StartCoroutine(ShowRayCoroutine(start, end));
+        GameObject projectile = Instantiate(shadowBall, start, Quaternion.identity);
+        projectile.GetComponent<Rigidbody>().velocity = (end - start).normalized * spellRange;
     }
 
     IEnumerator ShowRayCoroutine(Vector3 start, Vector3 end)
@@ -204,6 +230,22 @@ public class Character : MonoBehaviour
             yield return null;
         }
         healthSlider.value = 0;
+    }
+
+    IEnumerator ReduceShadowSlider(float amount)
+    {
+        float targetValue = shadowSlider.value - amount;
+        if (targetValue < 0)
+        {
+            targetValue = 0;
+        }
+
+        while (shadowSlider.value > targetValue)
+        {
+            shadowSlider.value -= Time.deltaTime * 2;
+            yield return null;
+        }
+        shadowSlider.value = targetValue;
     }
 
     // Uncomment these sections to implement damage and death animations
