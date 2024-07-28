@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158641583756426, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4244501237351810, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_RootOrder
@@ -512,6 +512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 383
@@ -614,6 +618,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -725,6 +733,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -859,6 +871,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -1163,6 +1179,10 @@ PrefabInstance:
     - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
@@ -1658,6 +1678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 536
@@ -1760,6 +1784,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -2143,6 +2171,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1440026872273148, guid: 246eba929c3b38e43b936a70027489c6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4850109756073032, guid: 246eba929c3b38e43b936a70027489c6, type: 3}
       propertyPath: m_RootOrder
       value: 252
@@ -2201,6 +2233,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -2408,7 +2444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1602078464841070, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4945140895011974, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
       propertyPath: m_RootOrder
@@ -3168,6 +3204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 278
@@ -3277,6 +3317,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1930011292438076, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4527040747779092, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_RootOrder
       value: 417
@@ -3371,6 +3415,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -3474,6 +3522,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -3677,7 +3729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1930011292438076, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4527040747779092, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_RootOrder
@@ -3777,6 +3829,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -3943,6 +3999,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -4123,6 +4183,10 @@ PrefabInstance:
     - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
@@ -4580,6 +4644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1023921553599232, guid: e5a215e859499954aa051137ab79fce7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4545756637226102, guid: e5a215e859499954aa051137ab79fce7, type: 3}
       propertyPath: m_RootOrder
       value: 761
@@ -4982,6 +5050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 423
@@ -5320,6 +5392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_13
       objectReference: {fileID: 0}
+    - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4059035886281818, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_RootOrder
       value: 175
@@ -5431,6 +5507,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -5773,7 +5853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
@@ -6201,6 +6281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 505
@@ -6320,6 +6404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425224342497580, guid: e133d9a7a4dc5f148a2af5867d2fc781, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4706355960079752, guid: e133d9a7a4dc5f148a2af5867d2fc781, type: 3}
       propertyPath: m_RootOrder
       value: 433
@@ -6418,6 +6506,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -6771,6 +6863,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -7277,6 +7373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_9 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1019683908379702, guid: c17bffde19388214ca05d46141f33f2c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4539110729093564, guid: c17bffde19388214ca05d46141f33f2c, type: 3}
       propertyPath: m_RootOrder
       value: 771
@@ -7463,6 +7563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1829371594384946, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4941779833077776, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
       propertyPath: m_RootOrder
       value: 180
@@ -7582,6 +7686,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -8107,6 +8215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 216
@@ -8220,7 +8332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1161297026866906, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4410946313652100, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_RootOrder
@@ -8286,6 +8398,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -8403,6 +8519,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -8611,6 +8731,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -8832,6 +8956,10 @@ PrefabInstance:
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -9145,6 +9273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 488
@@ -9305,6 +9437,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -9887,6 +10023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 513
@@ -10202,6 +10342,10 @@ PrefabInstance:
     - target: {fileID: 1023921553599232, guid: e5a215e859499954aa051137ab79fce7, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_B_3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1023921553599232, guid: e5a215e859499954aa051137ab79fce7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4545756637226102, guid: e5a215e859499954aa051137ab79fce7, type: 3}
       propertyPath: m_RootOrder
@@ -10553,7 +10697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158641583756426, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4244501237351810, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_RootOrder
@@ -10822,6 +10966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 511
@@ -11043,6 +11191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_E_7 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1719922613554210, guid: 5698247a059588141b260c7816c0d597, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4658768332763148, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_RootOrder
       value: 823
@@ -11141,6 +11293,10 @@ PrefabInstance:
     - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
@@ -11255,7 +11411,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1389422230692682, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4043558549950084, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_RootOrder
@@ -11364,6 +11520,10 @@ PrefabInstance:
     - target: {fileID: 1389422230692682, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389422230692682, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4043558549950084, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_RootOrder
@@ -11475,7 +11635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -11547,6 +11707,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -11839,6 +12003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 558
@@ -11941,6 +12109,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -12118,7 +12290,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1798610289375000, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4986898079542606, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_RootOrder
@@ -12450,6 +12622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 274
@@ -12638,6 +12814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 205
@@ -12747,7 +12927,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1719922613554210, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4658768332763148, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_RootOrder
@@ -12945,6 +13125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 829
@@ -13130,6 +13314,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -13515,7 +13703,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -13637,6 +13825,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -13802,6 +13994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_14
       objectReference: {fileID: 0}
+    - target: {fileID: 1097814581647844, guid: f03db3aac148cac4e9adf56d5e298823, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4016923021323374, guid: f03db3aac148cac4e9adf56d5e298823, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -13912,7 +14108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -14641,6 +14837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -14752,6 +14952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
       value: 192
@@ -14854,6 +15058,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -15089,7 +15297,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1161297026866906, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4410946313652100, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_RootOrder
@@ -15459,6 +15667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 495
@@ -15595,6 +15807,10 @@ PrefabInstance:
     - target: {fileID: 1829371594384946, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_B_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829371594384946, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4941779833077776, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
       propertyPath: m_RootOrder
@@ -16296,6 +16512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1425224342497580, guid: e133d9a7a4dc5f148a2af5867d2fc781, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4706355960079752, guid: e133d9a7a4dc5f148a2af5867d2fc781, type: 3}
       propertyPath: m_RootOrder
       value: 213
@@ -16480,6 +16700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 300
@@ -16577,7 +16801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -16681,6 +16905,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -17026,7 +17254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -17214,7 +17442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1188639656149258, guid: effb55535d4f0344ebcdcdd80f9c8d31, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4663259088485872, guid: effb55535d4f0344ebcdcdd80f9c8d31, type: 3}
       propertyPath: m_RootOrder
@@ -17326,7 +17554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -17422,6 +17650,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -17747,7 +17979,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -17997,6 +18229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 280
@@ -18095,6 +18331,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -18301,7 +18541,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &440291502
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18577,7 +18817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1305973842710174, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4242942848518270, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_RootOrder
@@ -18665,6 +18905,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -18782,6 +19026,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -19091,6 +19339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 171
@@ -19223,6 +19475,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -20117,6 +20373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 311
@@ -20618,6 +20878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_6
       objectReference: {fileID: 0}
+    - target: {fileID: 1588074038472698, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4880544841661566, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
       propertyPath: m_RootOrder
       value: 178
@@ -20792,6 +21056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 268
@@ -20894,6 +21162,10 @@ PrefabInstance:
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -21854,6 +22126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 291
@@ -21956,6 +22232,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -22571,6 +22851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 386
@@ -22674,6 +22958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_5 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1480811587186590, guid: ebb870613f27f70459c44aefdd30519b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4328653778718626, guid: ebb870613f27f70459c44aefdd30519b, type: 3}
       propertyPath: m_RootOrder
       value: 770
@@ -22776,6 +23064,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -22890,7 +23182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -23058,6 +23350,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1464114211796822, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4012793654421310, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
       propertyPath: m_RootOrder
       value: 247
@@ -23164,6 +23460,10 @@ PrefabInstance:
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -23359,7 +23659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1135926630986418, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4788743779654174, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_RootOrder
@@ -23795,6 +24095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 385
@@ -24027,6 +24331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
       value: 497
@@ -24205,6 +24513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 831
@@ -24308,6 +24620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 427
@@ -24410,6 +24726,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -24698,6 +25018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 276
@@ -24932,6 +25256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 315
@@ -25040,6 +25368,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -25485,6 +25817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_E_2 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1497357633203066, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4917877538095202, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
       propertyPath: m_RootOrder
       value: 753
@@ -25653,6 +25989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_6 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1966370275766862, guid: b2014636dfbe08e43837008893a44b18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4579077783199514, guid: b2014636dfbe08e43837008893a44b18, type: 3}
       propertyPath: m_RootOrder
       value: 445
@@ -25751,6 +26091,10 @@ PrefabInstance:
     - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_07 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
@@ -25855,6 +26199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 755
@@ -25950,6 +26298,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1602078464841070, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4945140895011974, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
       propertyPath: m_RootOrder
       value: 253
@@ -26011,7 +26363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -26114,7 +26466,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1464114211796822, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4012793654421310, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
       propertyPath: m_RootOrder
@@ -26352,6 +26704,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -26673,6 +27029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 279
@@ -26775,6 +27135,10 @@ PrefabInstance:
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -27097,6 +27461,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -27469,6 +27837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 384
@@ -27694,6 +28066,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -28428,6 +28804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 393
@@ -28530,6 +28910,10 @@ PrefabInstance:
     - target: {fileID: 1829371594384946, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_B_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829371594384946, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4941779833077776, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
       propertyPath: m_RootOrder
@@ -29099,6 +29483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
       value: 338
@@ -29209,6 +29597,10 @@ PrefabInstance:
     - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_B_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4059035886281818, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_RootOrder
@@ -29325,6 +29717,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -29647,6 +30043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 256
@@ -29749,6 +30149,10 @@ PrefabInstance:
     - target: {fileID: 1425224342497580, guid: e133d9a7a4dc5f148a2af5867d2fc781, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1425224342497580, guid: e133d9a7a4dc5f148a2af5867d2fc781, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4706355960079752, guid: e133d9a7a4dc5f148a2af5867d2fc781, type: 3}
       propertyPath: m_RootOrder
@@ -29918,6 +30322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 283
@@ -30020,6 +30428,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -30129,6 +30541,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -30241,6 +30657,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 208
@@ -30352,6 +30772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553076608151942, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_RootOrder
       value: 206
@@ -30457,7 +30881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -30670,6 +31094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_17
       objectReference: {fileID: 0}
+    - target: {fileID: 1496130625544404, guid: 731161ef571adef44ab543ff1e9d635b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4206362989646458, guid: 731161ef571adef44ab543ff1e9d635b, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -30776,7 +31204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158641583756426, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4244501237351810, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_RootOrder
@@ -31029,6 +31457,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1602078464841070, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4945140895011974, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
       propertyPath: m_RootOrder
       value: 745
@@ -31246,6 +31678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_13
       objectReference: {fileID: 0}
+    - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4059035886281818, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -31388,7 +31824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1135926630986418, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4551153185485526, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31651,6 +32087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_13
       objectReference: {fileID: 0}
+    - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4059035886281818, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_RootOrder
       value: 176
@@ -31892,7 +32332,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1161297026866906, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4410946313652100, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_RootOrder
@@ -32097,6 +32537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 533
@@ -32299,6 +32743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 522
@@ -32404,7 +32852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -32575,7 +33023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -32816,6 +33264,10 @@ PrefabInstance:
     - target: {fileID: 1602078464841070, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_E_9 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602078464841070, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4945140895011974, guid: 02958355318b1814d9558d353e8aacfb, type: 3}
       propertyPath: m_RootOrder
@@ -33593,6 +34045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_E_8 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1440026872273148, guid: 246eba929c3b38e43b936a70027489c6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4850109756073032, guid: 246eba929c3b38e43b936a70027489c6, type: 3}
       propertyPath: m_RootOrder
       value: 360
@@ -33840,6 +34296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1507421196434888, guid: 6a8ab176529295c45a965c1b2042998c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4543852452784036, guid: 6a8ab176529295c45a965c1b2042998c, type: 3}
       propertyPath: m_RootOrder
       value: 446
@@ -33965,6 +34425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 261
@@ -34068,6 +34532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 425
@@ -34170,6 +34638,10 @@ PrefabInstance:
     - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
@@ -34276,7 +34748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -34380,6 +34852,10 @@ PrefabInstance:
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -34588,6 +35064,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -34968,6 +35448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_07 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
       value: 292
@@ -35138,6 +35622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 182
@@ -35251,7 +35739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -35350,7 +35838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -35438,6 +35926,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -35724,6 +36216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 534
@@ -35826,6 +36322,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -36090,7 +36590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1330345204884278, guid: 54d004a1a5a796542836e14f7c18403d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4995723265046032, guid: 54d004a1a5a796542836e14f7c18403d, type: 3}
       propertyPath: m_RootOrder
@@ -36859,6 +37359,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
       value: 186
@@ -37271,7 +37775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
@@ -37942,6 +38446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_07 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
       value: 763
@@ -38045,6 +38553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 391
@@ -38147,6 +38659,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -38375,6 +38891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 310
@@ -38495,6 +39015,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -39126,6 +39650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 277
@@ -39363,6 +39891,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1673851300618726, guid: 480d0948a30cfea42b4bea95a32f0f3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4848433482014868, guid: 480d0948a30cfea42b4bea95a32f0f3a, type: 3}
       propertyPath: m_RootOrder
       value: 458
@@ -39433,6 +39965,10 @@ PrefabInstance:
     - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_07 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
@@ -39727,6 +40263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 414
@@ -39857,6 +40397,10 @@ PrefabInstance:
     - target: {fileID: 1496130625544404, guid: 731161ef571adef44ab543ff1e9d635b, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_B_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1496130625544404, guid: 731161ef571adef44ab543ff1e9d635b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4206362989646458, guid: 731161ef571adef44ab543ff1e9d635b, type: 3}
       propertyPath: m_RootOrder
@@ -40180,6 +40724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 304
@@ -40407,6 +40955,10 @@ PrefabInstance:
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -40650,7 +41202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -40925,7 +41477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1881436260121866, guid: 34772f74626e147439d4980b8a5d82d3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4991436574765970, guid: 34772f74626e147439d4980b8a5d82d3, type: 3}
       propertyPath: m_RootOrder
@@ -41283,6 +41835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 305
@@ -41405,6 +41961,10 @@ PrefabInstance:
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -41774,7 +42334,7 @@ Transform:
   m_GameObject: {fileID: 988330168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.964, z: 0.182}
+  m_LocalPosition: {x: 0, y: 2.186, z: 0.182}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -41791,6 +42351,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -42047,6 +42611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_9 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1019683908379702, guid: c17bffde19388214ca05d46141f33f2c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4539110729093564, guid: c17bffde19388214ca05d46141f33f2c, type: 3}
       propertyPath: m_RootOrder
       value: 762
@@ -42152,7 +42720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -42343,6 +42911,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -42904,7 +43476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -43109,6 +43681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 527
@@ -43216,6 +43792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 507
@@ -43318,6 +43898,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -43873,6 +44457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 387
@@ -44089,6 +44677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_7 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1531250795439322, guid: 6f8d04a5b33351c458384abf523a9198, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4076346338459298, guid: 6f8d04a5b33351c458384abf523a9198, type: 3}
       propertyPath: m_RootOrder
       value: 764
@@ -44209,6 +44801,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -44416,6 +45012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 312
@@ -44518,6 +45118,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -44725,7 +45329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1798610289375000, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4986898079542606, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_RootOrder
@@ -44929,7 +45533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -45376,6 +45980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 381
@@ -45584,6 +46192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 532
@@ -45742,7 +46354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -46177,6 +46789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 309
@@ -46279,6 +46895,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -46714,7 +47334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -47007,6 +47627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 392
@@ -47162,7 +47786,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1798610289375000, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4986898079542606, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_RootOrder
@@ -47295,7 +47919,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4059035886281818, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_RootOrder
@@ -47700,6 +48324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 288
@@ -47969,7 +48597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1588074038472698, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4880544841661566, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
       propertyPath: m_RootOrder
@@ -48481,6 +49109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553076608151942, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -48781,6 +49413,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -49353,6 +49989,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_13
       objectReference: {fileID: 0}
+    - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4059035886281818, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -49465,6 +50105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 485
@@ -49575,6 +50219,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -49886,6 +50534,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -50256,6 +50908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
       value: 409
@@ -50353,7 +51009,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1719922613554210, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4658768332763148, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_RootOrder
@@ -50701,6 +51357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
       value: 333
@@ -50912,6 +51572,10 @@ PrefabInstance:
     - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_07 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
@@ -51258,6 +51922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 307
@@ -51401,6 +52069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 484
@@ -51530,6 +52202,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1305973842710174, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4242942848518270, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_RootOrder
       value: 819
@@ -51597,7 +52273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -51702,6 +52378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 494
@@ -51804,6 +52484,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -51991,6 +52675,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -52397,7 +53085,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1305973842710174, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4242942848518270, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_RootOrder
@@ -52469,6 +53157,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -52612,6 +53304,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 172
@@ -52723,6 +53419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 341
@@ -52822,6 +53522,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1673851300618726, guid: 480d0948a30cfea42b4bea95a32f0f3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4848433482014868, guid: 480d0948a30cfea42b4bea95a32f0f3a, type: 3}
       propertyPath: m_RootOrder
       value: 432
@@ -53198,7 +53902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -53311,6 +54015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 271
@@ -53413,6 +54121,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -53717,7 +54429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1135926630986418, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4788743779654174, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_RootOrder
@@ -54265,6 +54977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
       value: 402
@@ -54484,7 +55200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1135926630986418, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4551153185485526, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -54819,7 +55535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1305973842710174, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4242942848518270, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_RootOrder
@@ -55130,6 +55846,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -55694,6 +56414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 399
@@ -55804,6 +56528,10 @@ PrefabInstance:
     - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553076608151942, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_RootOrder
@@ -56045,6 +56773,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -56467,6 +57199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
       value: 517
@@ -56570,6 +57306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 766
@@ -56669,6 +57409,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1719922613554210, guid: 5698247a059588141b260c7816c0d597, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4658768332763148, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_RootOrder
       value: 751
@@ -56727,6 +57471,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -56832,6 +57580,10 @@ PrefabInstance:
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -57145,6 +57897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 374
@@ -57357,6 +58113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 169
@@ -57468,6 +58228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
       value: 516
@@ -57570,6 +58334,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -57791,6 +58559,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -58536,6 +59308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
       value: 413
@@ -58864,6 +59640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 519
@@ -58967,6 +59747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 364
@@ -59069,6 +59853,10 @@ PrefabInstance:
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -59230,7 +60018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158641583756426, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4244501237351810, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_RootOrder
@@ -59618,7 +60406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1480811587186590, guid: ebb870613f27f70459c44aefdd30519b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4328653778718626, guid: ebb870613f27f70459c44aefdd30519b, type: 3}
       propertyPath: m_RootOrder
@@ -59954,6 +60742,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -60324,6 +61116,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 215
@@ -60462,6 +61258,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -60663,6 +61463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 260
@@ -60765,6 +61569,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -60871,7 +61679,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
@@ -60982,6 +61790,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 369
@@ -61084,6 +61896,10 @@ PrefabInstance:
     - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
@@ -62069,7 +62885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1161297026866906, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4410946313652100, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_RootOrder
@@ -62237,6 +63053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 173
@@ -62347,6 +63167,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -62635,6 +63459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 322
@@ -62748,7 +63576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1881436260121866, guid: 34772f74626e147439d4980b8a5d82d3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4991436574765970, guid: 34772f74626e147439d4980b8a5d82d3, type: 3}
       propertyPath: m_RootOrder
@@ -63668,6 +64496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 397
@@ -63908,6 +64740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 537
@@ -64010,6 +64846,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -64385,6 +65225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
       value: 475
@@ -64700,6 +65544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 491
@@ -64805,7 +65653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1135926630986418, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4788743779654174, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_RootOrder
@@ -65298,7 +66146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -65737,7 +66585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1135926630986418, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4551153185485526, guid: 226f6484bfa0f8044902e64289530cb3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65954,6 +66802,10 @@ PrefabInstance:
     - target: {fileID: 1497357633203066, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_E_2 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1497357633203066, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4917877538095202, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
       propertyPath: m_RootOrder
@@ -66301,6 +67153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 289
@@ -66508,6 +67364,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -66876,6 +67736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553076608151942, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_RootOrder
       value: 207
@@ -67207,6 +68071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 400
@@ -67368,6 +68236,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 759
@@ -67471,6 +68343,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
       value: 415
@@ -67569,6 +68445,10 @@ PrefabInstance:
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -67798,7 +68678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -67902,6 +68782,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -68051,6 +68935,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -68401,7 +69289,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1389422230692682, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4043558549950084, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_RootOrder
@@ -68734,6 +69622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 525
@@ -68836,6 +69728,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -69546,6 +70442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 199
@@ -69656,6 +70556,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -70125,6 +71029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 275
@@ -70286,7 +71194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1161297026866906, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4410946313652100, guid: a24086ea0a966eb4584436bd7cb570fe, type: 3}
       propertyPath: m_RootOrder
@@ -70386,6 +71294,10 @@ PrefabInstance:
     - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_07 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
@@ -70570,6 +71482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1930011292438076, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4527040747779092, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_RootOrder
       value: 405
@@ -70671,7 +71587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -70798,6 +71714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_3 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1023921553599232, guid: e5a215e859499954aa051137ab79fce7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4545756637226102, guid: e5a215e859499954aa051137ab79fce7, type: 3}
       propertyPath: m_RootOrder
       value: 812
@@ -70900,6 +71820,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -71117,7 +72041,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1188639656149258, guid: effb55535d4f0344ebcdcdd80f9c8d31, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4663259088485872, guid: effb55535d4f0344ebcdcdd80f9c8d31, type: 3}
       propertyPath: m_RootOrder
@@ -71420,6 +72344,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -71926,6 +72854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1673851300618726, guid: 480d0948a30cfea42b4bea95a32f0f3a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4848433482014868, guid: 480d0948a30cfea42b4bea95a32f0f3a, type: 3}
       propertyPath: m_RootOrder
       value: 487
@@ -72024,6 +72956,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -72145,6 +73081,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -72932,7 +73872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1588074038472698, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4880544841661566, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
       propertyPath: m_RootOrder
@@ -73471,7 +74411,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0.464
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -73701,7 +74641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -73806,6 +74746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 367
@@ -73900,6 +74844,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -74103,6 +75051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 174
@@ -74213,6 +75165,10 @@ PrefabInstance:
     - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_D_10 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
@@ -74421,7 +75377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -74521,6 +75477,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -74632,6 +75592,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -75326,6 +76290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_6 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1966370275766862, guid: b2014636dfbe08e43837008893a44b18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4579077783199514, guid: b2014636dfbe08e43837008893a44b18, type: 3}
       propertyPath: m_RootOrder
       value: 442
@@ -75836,6 +76804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_D_6 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1966370275766862, guid: b2014636dfbe08e43837008893a44b18, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4579077783199514, guid: b2014636dfbe08e43837008893a44b18, type: 3}
       propertyPath: m_RootOrder
       value: 439
@@ -75922,6 +76894,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -76033,6 +77009,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -76165,6 +77145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_B_5 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1480811587186590, guid: ebb870613f27f70459c44aefdd30519b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4328653778718626, guid: ebb870613f27f70459c44aefdd30519b, type: 3}
       propertyPath: m_RootOrder
       value: 781
@@ -76286,6 +77270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 340
@@ -76388,6 +77376,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -76520,6 +77512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 523
@@ -76622,6 +77618,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -76934,6 +77934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_07 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1226572435925966, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4479173327301566, guid: 99ef2e86f7ad4c544a0efda4c75b408d, type: 3}
       propertyPath: m_RootOrder
       value: 262
@@ -77134,6 +78138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 531
@@ -77236,6 +78244,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -77627,6 +78639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 394
@@ -77754,7 +78770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1389422230692682, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4043558549950084, guid: e045f26ff41f4cc4daf4823478b144a7, type: 3}
       propertyPath: m_RootOrder
@@ -77999,7 +79015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -78104,6 +79120,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 498
@@ -78206,6 +79226,10 @@ PrefabInstance:
     - target: {fileID: 1122055926875448, guid: 690e69a622c316a43860314219926ca6, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_B_8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122055926875448, guid: 690e69a622c316a43860314219926ca6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4804996513058712, guid: 690e69a622c316a43860314219926ca6, type: 3}
       propertyPath: m_RootOrder
@@ -78310,6 +79334,10 @@ PrefabInstance:
     - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
@@ -79018,6 +80046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 324
@@ -79472,6 +80504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 160
@@ -79573,7 +80609,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1497357633203066, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4917877538095202, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
       propertyPath: m_RootOrder
@@ -79831,6 +80867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
       value: 273
@@ -79933,6 +80973,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -80073,6 +81117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 161
@@ -80184,6 +81232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
       value: 264
@@ -80282,6 +81334,10 @@ PrefabInstance:
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -80441,6 +81497,10 @@ PrefabInstance:
     - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584235614466710, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4871858869073206, guid: 32ca38dbd3d855b41be59bf8bbf96c86, type: 3}
       propertyPath: m_RootOrder
@@ -80662,7 +81722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1305973842710174, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4242942848518270, guid: 8aae5d06e0fd80a4b9b7b4ce3c093fb3, type: 3}
       propertyPath: m_RootOrder
@@ -81512,6 +82572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 742
@@ -81642,6 +82706,10 @@ PrefabInstance:
     - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553076608151942, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_RootOrder
@@ -81843,6 +82911,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1139853169407620, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4004496511248586, guid: 340fe1f370cba8046891a151052b5fdf, type: 3}
       propertyPath: m_RootOrder
       value: 773
@@ -82118,6 +83190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 272
@@ -82357,7 +83433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -82585,7 +83661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1023921553599232, guid: e5a215e859499954aa051137ab79fce7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4545756637226102, guid: e5a215e859499954aa051137ab79fce7, type: 3}
       propertyPath: m_RootOrder
@@ -82725,6 +83801,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -82893,6 +83973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 518
@@ -83051,6 +84135,10 @@ PrefabInstance:
     - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
@@ -83434,7 +84522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
@@ -83563,7 +84651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158641583756426, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4244501237351810, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_RootOrder
@@ -84236,6 +85324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 411
@@ -84470,7 +85562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158641583756426, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4244501237351810, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_RootOrder
@@ -84745,7 +85837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -84908,7 +86000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1719922613554210, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4658768332763148, guid: 5698247a059588141b260c7816c0d597, type: 3}
       propertyPath: m_RootOrder
@@ -85000,6 +86092,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -85111,6 +86207,10 @@ PrefabInstance:
     - target: {fileID: 1930011292438076, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_C_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930011292438076, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4527040747779092, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_RootOrder
@@ -85274,6 +86374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
       value: 218
@@ -85379,7 +86483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
@@ -87140,6 +88244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 469
@@ -87245,7 +88353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -87492,6 +88600,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 679180353}
     m_Modifications:
+    - target: {fileID: 1440026872273148, guid: 246eba929c3b38e43b936a70027489c6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4850109756073032, guid: 246eba929c3b38e43b936a70027489c6, type: 3}
       propertyPath: m_RootOrder
       value: 746
@@ -88078,6 +89190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 166
@@ -88211,6 +89327,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 177
@@ -88324,7 +89444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1930011292438076, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4527040747779092, guid: 33a6fce3e601c8443b54d090f453f27f, type: 3}
       propertyPath: m_RootOrder
@@ -88423,7 +89543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1588074038472698, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4880544841661566, guid: b48a28da74c27a14f83b0840786cd52c, type: 3}
       propertyPath: m_RootOrder
@@ -88526,7 +89646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -88631,6 +89751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 318
@@ -88733,6 +89857,10 @@ PrefabInstance:
     - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_04 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1584313978996450, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4659015664666818, guid: bf0031efb398fa94f8625338df02cef4, type: 3}
       propertyPath: m_RootOrder
@@ -89022,6 +90150,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -89660,7 +90792,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1798610289375000, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4986898079542606, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_RootOrder
@@ -89793,7 +90925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1798610289375000, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4986898079542606, guid: d2f2af37e13c8b640b68bf16cfca27d9, type: 3}
       propertyPath: m_RootOrder
@@ -90005,7 +91137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1973861706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -90255,6 +91387,10 @@ PrefabInstance:
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -90558,6 +91694,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -91441,7 +92581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1031907277368322, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4234336662739868, guid: ff9097b2bdc855245ac1ef489e1294fb, type: 3}
       propertyPath: m_RootOrder
@@ -91754,6 +92894,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 286
@@ -91855,7 +92999,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1497357633203066, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4917877538095202, guid: 89adb83864147d340af7dc6b9e3c7eda, type: 3}
       propertyPath: m_RootOrder
@@ -92190,6 +93334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 510
@@ -92295,7 +93443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1464114211796822, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4012793654421310, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
       propertyPath: m_RootOrder
@@ -92410,6 +93558,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 184
@@ -92520,6 +93672,10 @@ PrefabInstance:
     - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
@@ -92651,6 +93807,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -92791,6 +93951,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -93251,6 +94415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 313
@@ -93549,6 +94717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
       value: 294
@@ -93772,6 +94944,10 @@ PrefabInstance:
     - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
@@ -94118,7 +95294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1829371594384946, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4941779833077776, guid: 26771f6fdae497245a323f603d5c1eb2, type: 3}
       propertyPath: m_RootOrder
@@ -94865,6 +96041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_05 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1685359716943998, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4772597483481414, guid: 32ddb7d24bc044b4aaad69f48478c89a, type: 3}
       propertyPath: m_RootOrder
       value: 521
@@ -95512,6 +96692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_C_3 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1717709288354970, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355668661500628, guid: 8568d60a4fd758b4e852ce44641f4697, type: 3}
       propertyPath: m_RootOrder
       value: 467
@@ -95614,6 +96798,10 @@ PrefabInstance:
     - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
@@ -95973,6 +97161,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Rock_A_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1248606059264104, guid: 70677a7939bf5104497c27205fea42af, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4375191480987822, guid: 70677a7939bf5104497c27205fea42af, type: 3}
       propertyPath: m_RootOrder
       value: 163
@@ -96136,7 +97328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1836917921656364, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4553076608151942, guid: e6df6fe1751359f42914afbc5559085f, type: 3}
       propertyPath: m_RootOrder
@@ -96386,6 +97578,10 @@ PrefabInstance:
     - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
@@ -96918,7 +98114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -97089,6 +98285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_03 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085016429758374, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4553735369796830, guid: f0c5803c16b0a7b40a09b8e0a2e5ca64, type: 3}
       propertyPath: m_RootOrder
       value: 526
@@ -97214,6 +98414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_02 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1914660049025354, guid: 6b1eca0515c885340a585932794c7764, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4952639068535720, guid: 6b1eca0515c885340a585932794c7764, type: 3}
       propertyPath: m_RootOrder
       value: 496
@@ -97307,7 +98511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1464114211796822, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4012793654421310, guid: 7e8fd86aa499d3947b588fb1d881163d, type: 3}
       propertyPath: m_RootOrder
@@ -97457,6 +98661,10 @@ PrefabInstance:
     - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_Name
       value: ZLPC_Cliff_A_06 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569959492072960, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4415832910981912, guid: 7ba79fcba46054b4e9348db539d65836, type: 3}
       propertyPath: m_RootOrder
@@ -97664,6 +98872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZLPC_Cliff_A_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1481463336671898, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4442685365784208, guid: f395efb6f2cd447448101d16b8f764ac, type: 3}
       propertyPath: m_RootOrder
       value: 520
@@ -97777,7 +98989,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1158641583756426, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4244501237351810, guid: 498ba9c6a84a60742ba0035896210005, type: 3}
       propertyPath: m_RootOrder
@@ -98398,6 +99610,10 @@ PrefabInstance:
     - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_Name
       value: ZLPC_Rock_B_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030098932349106, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4059035886281818, guid: 9ca7c00f3ff55354291d08b6c5c550c8, type: 3}
       propertyPath: m_RootOrder
@@ -109392,7 +110608,7 @@ Transform:
   m_GameObject: {fileID: 7036213050341270097}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.8808288, z: 0, w: 0.473435}
-  m_LocalPosition: {x: 8.39, y: -7.5, z: -66.1}
+  m_LocalPosition: {x: 8.39, y: -7.11, z: -66.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

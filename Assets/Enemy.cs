@@ -62,6 +62,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.CompareTag("ball"))
         {
             PlayEffect();
+            angelAnim.SetTrigger("damage");
             ReduceHealth(50f); // Reduce health by 50 units
         }
     }
@@ -131,6 +132,8 @@ public class Enemy : MonoBehaviour
         {
             angelAnim.SetTrigger("death");
             Debug.Log("Death animation triggered.");
+            Destroy(healthBarSlider.gameObject); // Destroy the health bar
+            Destroy(gameObject, 2f); // Destroy the game object after 2 seconds
         }
         else
         {

@@ -252,7 +252,12 @@ public class Character : MonoBehaviour
 
     public void IncreaseShadowSlider(float amount)
     {
-        shadowSlider.value = Mathf.Clamp(shadowSlider.value + 0.3f, 0, shadowSlider.maxValue);
+        shadowSlider.value = Mathf.Clamp(shadowSlider.value + .35f, 0, shadowSlider.maxValue);
+    }
+
+    public void IncreaseHealthSlider(float amount)
+    {
+        healthSlider.value = Mathf.Clamp(healthSlider.value + .35f, 0, healthSlider.maxValue);
     }
 
     // Uncomment these sections to implement damage and death animations

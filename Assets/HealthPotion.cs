@@ -7,8 +7,6 @@ public class HealthPotion : MonoBehaviour
 
     private ParticleSystem particleEffect;
 
-
-    
     void Start()
     {
         if (model == null)
@@ -34,7 +32,12 @@ public class HealthPotion : MonoBehaviour
     {
         if (other.CompareTag("Player")) // Assumes the player has the tag "Player"
         {
-            ConsumePotion();
+            Character character = other.GetComponent<Character>();
+            if (character != null)
+            {
+                character.IncreaseHealthSlider(35f);
+                ConsumePotion();
+            }
         }
     }
 
@@ -43,11 +46,13 @@ public class HealthPotion : MonoBehaviour
         if (model != null)
         {
             Destroy(model);
+            Debug.Log("Health potion model destroyed."); // Debug message
         }
 
         if (particleEffect != null)
         {
             particleEffect.Play();
+            Debug.Log("Health potion effect played."); // Debug message
             Destroy(gameObject, particleEffect.main.duration); // Destroy the entire potion object after the effect finishes
         }
         else
