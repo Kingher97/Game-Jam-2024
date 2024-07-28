@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17408407, g: 0.2176887, b: 0.2998778, a: 1}
+  m_IndirectSpecularColor: {r: 0.17408407, g: 0.21768866, b: 0.2998778, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -71753,7 +71753,7 @@ Transform:
   m_GameObject: {fileID: 1687804953}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.8808288, z: -0, w: 0.473435}
-  m_LocalPosition: {x: 0.69914603, y: 1.5, z: 0.71252644}
+  m_LocalPosition: {x: 1.583, y: 1.5, z: 2.048}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -74862,7 +74862,7 @@ PrefabInstance:
     - target: {fileID: 198482886148441596, guid: 162a5af77c222c54d8cd9d93faed908b,
         type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198482886148441596, guid: 162a5af77c222c54d8cd9d93faed908b,
         type: 3}
@@ -74872,7 +74872,7 @@ PrefabInstance:
     - target: {fileID: 198482886148441596, guid: 162a5af77c222c54d8cd9d93faed908b,
         type: 3}
       propertyPath: playOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198482886148441596, guid: 162a5af77c222c54d8cd9d93faed908b,
         type: 3}
@@ -98847,7 +98847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 8
   jumpForce: 5
-  spellRange: 100
+  spellRange: 30
   gameOverScreen: {fileID: 8156936645826314828}
   crosshairImage: {fileID: 1721126495}
   healthSlider: {fileID: 1637423177}

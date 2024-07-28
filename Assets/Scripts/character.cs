@@ -19,7 +19,6 @@ public class Character : MonoBehaviour
     private bool isCastingSpell = false;
 
     public Animator playerAnim;
-    private LineRenderer lineRenderer;
     private Camera mainCamera;
     public float horizontalOffset = 2f;
 
@@ -30,18 +29,6 @@ public class Character : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
-        lineRenderer = GetComponent<LineRenderer>();
-        if (lineRenderer == null)
-        {
-            lineRenderer = gameObject.AddComponent<LineRenderer>();
-        }
-        lineRenderer.startWidth = 0.1f;
-        lineRenderer.endWidth = 0.1f;
-        lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
-        lineRenderer.startColor = Color.red;
-        lineRenderer.endColor = Color.red;
-        lineRenderer.positionCount = 0;
 
         mainCamera = Camera.main;
         if (crosshairImage != null)
@@ -117,19 +104,37 @@ public class Character : MonoBehaviour
         {
             if (!string.IsNullOrEmpty(selectedSkill))
             {
+                float requiredShadow = 0f;
+
                 if (selectedSkill == "1")
                 {
-                    playerAnim.SetTrigger("spell");
-                    isCastingSpell = true;
-                    StartCoroutine(EndSpellAnimation());
-                    TriggerParticleSystem(shadowBody);
-                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.2f));
+                    requiredShadow = shadowSlider.maxValue * 0.2f;
                 }
                 else if (selectedSkill == "2")
                 {
-                    TriggerParticleSystem(shadowBallCast);
-                    CastShadowBall();
-                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
+                    requiredShadow = shadowSlider.maxValue * 0.3f;
+                }
+
+                if (shadowSlider.value >= requiredShadow)
+                {
+                    if (selectedSkill == "1")
+                    {
+                        playerAnim.SetTrigger("spell");
+                        isCastingSpell = true;
+                        StartCoroutine(EndSpellAnimation());
+                        TriggerParticleSystem(shadowBody);
+                        StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.2f));
+                    }
+                    else if (selectedSkill == "2")
+                    {
+                        TriggerParticleSystem(shadowBallCast);
+                        CastShadowBall();
+                        StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
+                    }
+                }
+                else
+                {
+                    Debug.Log("Not enough shadow energy.");
                 }
             }
         }
@@ -151,7 +156,7 @@ public class Character : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Il riferimento al GameObject è nullo.");
+            Debug.LogWarning("Il riferimento al GameObject ï¿½ nullo.");
         }
     }
 
@@ -160,8 +165,9 @@ public class Character : MonoBehaviour
         Vector3 crosshairWorldPosition = mainCamera.ScreenToWorldPoint(new Vector3(crosshairImage.rectTransform.position.x, crosshairImage.rectTransform.position.y, mainCamera.nearClipPlane));
 
         Vector3 direction = (mainCamera.transform.forward).normalized;
+        Vector3 offset = mainCamera.transform.position + direction * 5.0f;
 
-        Ray ray = new Ray(crosshairWorldPosition, direction);
+        Ray ray = new Ray(offset, direction);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, spellRange))
@@ -180,18 +186,9 @@ public class Character : MonoBehaviour
     void FireShadowBall(Vector3 start, Vector3 end)
     {
         GameObject projectile = Instantiate(shadowBall, start, Quaternion.identity);
-        projectile.GetComponent<Rigidbody>().velocity = (end - start).normalized * spellRange;
-    }
-
-    IEnumerator ShowRayCoroutine(Vector3 start, Vector3 end)
-    {
-        lineRenderer.positionCount = 2;
-        lineRenderer.SetPosition(0, start);
-        lineRenderer.SetPosition(1, end);
-
-        yield return new WaitForSeconds(3f);
-
-        lineRenderer.positionCount = 0;
+        projectile.SetActive(true);
+        projectile.GetComponent<Rigidbody>().velocity = (end - start).normalized * spellRange * 0.5f;
+        projectile.AddComponent<ShadowBall>();
     }
 
     IEnumerator EndSpellAnimation()
