@@ -119,7 +119,7 @@ public class Character : MonoBehaviour
                 {
                     if (selectedSkill == "1")
                     {
-                        playerAnim.SetTrigger("spell");
+                        //playerAnim.SetTrigger("spell");
                         isCastingSpell = true;
                         StartCoroutine(EndSpellAnimation());
                         TriggerParticleSystem(shadowBody);
@@ -127,6 +127,7 @@ public class Character : MonoBehaviour
                     }
                     else if (selectedSkill == "2")
                     {
+                        playerAnim.SetTrigger("spell");
                         TriggerParticleSystem(shadowBallCast);
                         CastShadowBall();
                         StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
