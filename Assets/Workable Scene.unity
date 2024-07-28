@@ -9029,6 +9029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 234065239}
   - component: {fileID: 234065240}
+  - component: {fileID: 234065241}
   m_Layer: 5
   m_Name: Shadow Bar / Slider
   m_TagString: Untagged
@@ -9111,6 +9112,27 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &234065241
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234065238}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 02013c48efb204bacb6b1096b8f47321, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &235651155
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18266,6 +18288,7 @@ GameObject:
   - component: {fileID: 440291502}
   - component: {fileID: 440291504}
   - component: {fileID: 440291503}
+  - component: {fileID: 440291505}
   m_Layer: 5
   m_Name: Greet Potion
   m_TagString: Untagged
@@ -18328,6 +18351,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440291501}
   m_CullTransparentMesh: 1
+--- !u!95 &440291505
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440291501}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5df5b9d78d4b5414481eee1225385c06, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &440729026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72415,6 +72459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637423176}
   - component: {fileID: 1637423177}
+  - component: {fileID: 1637423178}
   m_Layer: 5
   m_Name: Health Bar / Slider
   m_TagString: Untagged
@@ -72497,6 +72542,27 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &1637423178
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637423175}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 02013c48efb204bacb6b1096b8f47321, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1638629340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -88999,6 +89065,7 @@ GameObject:
   - component: {fileID: 1973861706}
   - component: {fileID: 1973861708}
   - component: {fileID: 1973861707}
+  - component: {fileID: 1973861709}
   m_Layer: 5
   m_Name: Purple Potion
   m_TagString: Untagged
@@ -89061,6 +89128,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973861705}
   m_CullTransparentMesh: 1
+--- !u!95 &1973861709
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973861705}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e8243a09af2741da96c2eb1f26cfc40, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1973977783
 GameObject:
   m_ObjectHideFlags: 0
@@ -108451,6 +108539,8 @@ MonoBehaviour:
   healthSlider: {fileID: 1637423177}
   shadowSlider: {fileID: 234065240}
   playerAnim: {fileID: 1140642776}
+  healthBarAnim: {fileID: 1637423178}
+  shadowBarAnim: {fileID: 234065241}
   horizontalOffset: 20
   shadowBody: {fileID: 1120045905}
   shadowBallCast: {fileID: 47408017}

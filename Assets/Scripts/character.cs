@@ -19,6 +19,9 @@ public class Character : MonoBehaviour
     private bool isCastingSpell = false;
 
     public Animator playerAnim;
+    public Animator healthBarAnim;
+    public Animator shadowBarAnim;
+
     private Camera mainCamera;
     public float horizontalOffset = 2f;
 
@@ -128,6 +131,7 @@ public class Character : MonoBehaviour
                     else if (selectedSkill == "2")
                     {
                         playerAnim.SetTrigger("spell");
+                        shadowBarAnim.SetTrigger("shake");
                         TriggerParticleSystem(shadowBallCast);
                         CastShadowBall();
                         StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
