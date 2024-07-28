@@ -8,6 +8,8 @@ TagManager:
   - mob
   - fall
   - ball
+  - health
+  - shadow
   layers:
   - Default
   - TransparentFX

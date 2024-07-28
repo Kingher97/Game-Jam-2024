@@ -161,7 +161,7 @@ public class Character : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Il riferimento al GameObject � nullo.");
+            Debug.LogWarning("Il riferimento al GameObject è nullo.");
         }
     }
 
@@ -248,6 +248,11 @@ public class Character : MonoBehaviour
             yield return null;
         }
         shadowSlider.value = targetValue;
+    }
+
+    public void IncreaseShadowSlider(float amount)
+    {
+        shadowSlider.value = Mathf.Clamp(shadowSlider.value + 0.3f, 0, shadowSlider.maxValue);
     }
 
     // Uncomment these sections to implement damage and death animations

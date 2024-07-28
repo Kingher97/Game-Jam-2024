@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     private ParticleSystem particleEffect;
     public Transform player; // Reference to the player GameObject
 
+    public Animator angelAnim;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -111,10 +113,28 @@ public class Enemy : MonoBehaviour
         {
             healthBarSlider.value = currentHealth / maxHealth;
             Debug.Log("Updating health bar to: " + healthBarSlider.value);
+
+            if (currentHealth <= 0)
+            {
+                TriggerDeathAnimation();
+            }
         }
         else
         {
             Debug.LogError("Health bar slider is null.");
+        }
+    }
+
+    private void TriggerDeathAnimation()
+    {
+        if (angelAnim != null)
+        {
+            angelAnim.SetTrigger("death");
+            Debug.Log("Death animation triggered.");
+        }
+        else
+        {
+            Debug.LogError("Animator is null.");
         }
     }
 }
