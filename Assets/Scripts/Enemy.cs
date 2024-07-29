@@ -172,8 +172,10 @@ public class Enemy : MonoBehaviour
     private IEnumerator FireAtPlayer()
     {
         canFire = false;
+        angelAnim.SetTrigger("attack");
+        yield return new WaitForSeconds(1.5f);
         FireLightBall();
-        yield return new WaitForSeconds(fireCooldown);
+        yield return new WaitForSeconds(fireCooldown - 1.5f);
         canFire = true;
     }
 }
