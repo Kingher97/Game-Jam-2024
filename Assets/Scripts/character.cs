@@ -153,8 +153,9 @@ public class Character : MonoBehaviour
                     {
                         playerAnim.SetTrigger("spell");
                         shadowBarAnim.SetTrigger("shake");
-                        TriggerParticleSystem(shadowBallCast);
-                        CastShadowBall();
+                        //TriggerParticleSystem(shadowBallCast);
+                        //CastShadowBall();
+                        StartCoroutine(ExecuteAfterDelay(1.0f));
                         StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
                     }
                 }
@@ -165,6 +166,14 @@ public class Character : MonoBehaviour
             }
         }
     }
+
+    private IEnumerator ExecuteAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        TriggerParticleSystem(shadowBallCast);
+        CastShadowBall();
+    }
+
 
     void TriggerParticleSystem(GameObject particleSystemObject)
     {
