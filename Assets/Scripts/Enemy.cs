@@ -13,6 +13,12 @@ public class Enemy : MonoBehaviour
     public Transform player; // Reference to the player GameObject
 
     public Animator angelAnim;
+    public GameObject lightBall;
+    public float spellRange = 100f;
+    public float activationRange = 5f;
+    public float fireCooldown = 2f;
+
+    private bool canFire = true;
 
     void Start()
     {
@@ -53,6 +59,14 @@ public class Enemy : MonoBehaviour
             direction.y = 0; // Ignore the Y component
             Quaternion lookRotation = Quaternion.LookRotation(direction);
             transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+
+            if (Vector3.Distance(transform.position, player.position) <= activationRange)
+            {
+                if (canFire)
+                {
+                    StartCoroutine(FireAtPlayer());
+                }
+            }
         }
     }
 
@@ -139,5 +153,27 @@ public class Enemy : MonoBehaviour
         {
             Debug.LogError("Animator is null.");
         }
+    }
+
+    void FireLightBall()
+    {
+        Vector3 startPosition = transform.position + transform.forward + Vector3.up * 2f;
+        Vector3 targetPosition = player.position + Vector3.up;
+
+        GameObject projectile = Instantiate(lightBall, startPosition, Quaternion.identity);
+        projectile.SetActive(true);
+
+        Rigidbody rb = projectile.GetComponent<Rigidbody>();
+        Vector3 direction = (targetPosition - startPosition).normalized;
+        rb.velocity = direction * spellRange * 0.5f;
+        projectile.AddComponent<LightBall>();
+    }
+
+    private IEnumerator FireAtPlayer()
+    {
+        canFire = false;
+        FireLightBall();
+        yield return new WaitForSeconds(fireCooldown);
+        canFire = true;
     }
 }

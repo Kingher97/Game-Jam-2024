@@ -16,7 +16,7 @@ public class Character : MonoBehaviour
 
     private Rigidbody rb;
     private string selectedSkill = "";
-    private bool isCastingSpell = false;
+    //private bool isCastingSpell = false;
 
     public Animator playerAnim;
     public Animator healthBarAnim;
@@ -29,8 +29,16 @@ public class Character : MonoBehaviour
     public GameObject shadowBallCast;
     public GameObject shadowBall;
 
+    public GameObject particleEffectGameObject;
+    private ParticleSystem particleEffect;
+
+    public float maxHealth = 100f;
+    private float currentHealth;
+
     void Start()
     {
+        currentHealth = maxHealth;
+
         rb = GetComponent<Rigidbody>();
 
         mainCamera = Camera.main;
@@ -38,15 +46,28 @@ public class Character : MonoBehaviour
         {
             crosshairImage.enabled = true;
         }
+
+        if (particleEffectGameObject != null)
+        {
+            particleEffect = particleEffectGameObject.GetComponent<ParticleSystem>();
+        }
+        else
+        {
+            Debug.LogError("Particle Effect GameObject not assigned.");
+        }
     }
 
     void Update()
     {
+        /*
         if (!isCastingSpell)
         {
             Move();
             HandleJump();
         }
+        */
+        Move();
+        HandleJump();
         HandleSpellsSelection();
         HandleSpellCasting();
     }
@@ -123,7 +144,7 @@ public class Character : MonoBehaviour
                     if (selectedSkill == "1")
                     {
                         //playerAnim.SetTrigger("spell");
-                        isCastingSpell = true;
+                        //isCastingSpell = true;
                         StartCoroutine(EndSpellAnimation());
                         TriggerParticleSystem(shadowBody);
                         StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.2f));
@@ -199,7 +220,7 @@ public class Character : MonoBehaviour
     IEnumerator EndSpellAnimation()
     {
         yield return new WaitForSeconds(2.3f); // spell animation duration
-        isCastingSpell = false;
+        //isCastingSpell = false;
     }
 
     void Die()
@@ -215,7 +236,62 @@ public class Character : MonoBehaviour
         {
             Die();
         }
+
+        if (other.gameObject.CompareTag("ballEnemy"))
+        {
+            PlayEffect();
+            playerAnim.SetTrigger("damage");
+            ReduceHealth(20f);
+        }
     }
+
+    private void ReduceHealth(float amount)
+    {
+        if (currentHealth > 0)
+        {
+            Debug.Log("Reducing health by: " + amount);
+            StartCoroutine(SmoothHealthDecrease(amount));
+        }
+    }
+
+    private IEnumerator SmoothHealthDecrease(float amount)
+    {
+        float targetHealth = currentHealth - amount;
+        float duration = 1f; // Duration for the health decrease effect
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            currentHealth = Mathf.Lerp(currentHealth, targetHealth, elapsed / duration);
+            UpdateHealthBar();
+            Debug.Log("Current health: " + currentHealth);
+            yield return null;
+        }
+
+        currentHealth = targetHealth;
+        Debug.Log("Final health: " + currentHealth);
+        UpdateHealthBar(); // Final update
+    }
+
+    private void UpdateHealthBar()
+    {
+        if (healthSlider != null)
+        {
+            healthSlider.value = currentHealth / maxHealth;
+            Debug.Log("Updating health bar to: " + healthSlider.value);
+
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
+        }
+        else
+        {
+            Debug.LogError("Health bar slider is null.");
+        }
+    }
+
 
     IEnumerator ShowGameOverScreen()
     {
@@ -258,6 +334,18 @@ public class Character : MonoBehaviour
     public void IncreaseHealthSlider(float amount)
     {
         healthSlider.value = Mathf.Clamp(healthSlider.value + .35f, 0, healthSlider.maxValue);
+    }
+
+    private void PlayEffect()
+    {
+        if (particleEffect != null)
+        {
+            particleEffect.Play();
+        }
+        else
+        {
+            Debug.LogError("Particle effect is null.");
+        }
     }
 
     // Uncomment these sections to implement damage and death animations
