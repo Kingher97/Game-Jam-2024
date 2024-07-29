@@ -11,6 +11,7 @@ TagManager:
   - health
   - shadow
   - ballEnemy
+  - light
   layers:
   - Default
   - TransparentFX

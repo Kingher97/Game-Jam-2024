@@ -16,7 +16,6 @@ public class Character : MonoBehaviour
 
     private Rigidbody rb;
     private string selectedSkill = "";
-    //private bool isCastingSpell = false;
 
     public Animator playerAnim;
     public Animator healthBarAnim;
@@ -34,6 +33,8 @@ public class Character : MonoBehaviour
 
     public float maxHealth = 100f;
     private float currentHealth;
+
+    private Coroutine lightDamageCoroutine; // Coroutine reference for continuous light damage
 
     void Start()
     {
@@ -59,13 +60,6 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        /*
-        if (!isCastingSpell)
-        {
-            Move();
-            HandleJump();
-        }
-        */
         Move();
         HandleJump();
         HandleSpellsSelection();
@@ -112,14 +106,12 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             selectedSkill = "1";
-            //Debug.Log("1 selected");
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             selectedSkill = "2";
             Debug.Log("2 selected");
         }
-        
     }
 
     void HandleSpellCasting()
@@ -143,8 +135,6 @@ public class Character : MonoBehaviour
                 {
                     if (selectedSkill == "1")
                     {
-                        //playerAnim.SetTrigger("spell");
-                        //isCastingSpell = true;
                         StartCoroutine(EndSpellAnimation());
                         TriggerParticleSystem(shadowBody);
                         StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.2f));
@@ -153,8 +143,6 @@ public class Character : MonoBehaviour
                     {
                         playerAnim.SetTrigger("spell");
                         shadowBarAnim.SetTrigger("shake");
-                        //TriggerParticleSystem(shadowBallCast);
-                        //CastShadowBall();
                         StartCoroutine(ExecuteAfterDelay(1.0f));
                         StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
                     }
@@ -174,7 +162,6 @@ public class Character : MonoBehaviour
         CastShadowBall();
     }
 
-
     void TriggerParticleSystem(GameObject particleSystemObject)
     {
         if (particleSystemObject != null)
@@ -182,7 +169,7 @@ public class Character : MonoBehaviour
             ParticleSystem ps = particleSystemObject.GetComponent<ParticleSystem>();
             if (ps != null)
             {
-                ps.Play(); // Avvia il ParticleSystem
+                ps.Play();
             }
             else
             {
@@ -218,6 +205,7 @@ public class Character : MonoBehaviour
             FireShadowBall(ray.origin, ray.origin + ray.direction * spellRange);
         }
     }
+
     void FireShadowBall(Vector3 start, Vector3 end)
     {
         GameObject projectile = Instantiate(shadowBall, start, Quaternion.identity);
@@ -229,7 +217,6 @@ public class Character : MonoBehaviour
     IEnumerator EndSpellAnimation()
     {
         yield return new WaitForSeconds(2.3f); // spell animation duration
-        //isCastingSpell = false;
     }
 
     void Die()
@@ -301,7 +288,6 @@ public class Character : MonoBehaviour
         }
     }
 
-
     IEnumerator ShowGameOverScreen()
     {
         yield return new WaitForSeconds(2.0f);
@@ -357,11 +343,35 @@ public class Character : MonoBehaviour
         }
     }
 
-    // Uncomment these sections to implement damage and death animations
-    /*
-    void TakeDamage()
-    {
-        playerAnim.SetTrigger("damage");
+    private void OnTriggerEnter(Collider other) {
+        if(other.gameObject.tag == "light")
+        {
+            Debug.Log("You are in Light");
+            if (lightDamageCoroutine == null)
+            {
+                lightDamageCoroutine = StartCoroutine(TakeDamageOverTime(5f, 1f)); // Adjust damage and interval as needed
+            }
+        }
     }
-    */
+
+    private void OnTriggerExit(Collider other) {
+        if(other.gameObject.tag == "light")
+        {
+            Debug.Log("You left the Light");
+            if (lightDamageCoroutine != null)
+            {
+                StopCoroutine(lightDamageCoroutine);
+                lightDamageCoroutine = null;
+            }
+        }
+    }
+
+    private IEnumerator TakeDamageOverTime(float damageAmount, float interval)
+    {
+        while (true)
+        {
+            ReduceHealth(damageAmount);
+            yield return new WaitForSeconds(interval);
+        }
+    }
 }
