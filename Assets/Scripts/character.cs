@@ -42,6 +42,9 @@ public class Character : MonoBehaviour
     public AudioSource runningAudioSource;
     public AudioSource jumpAudioSource;
 
+    private bool isGrounded; // Track if player is on the ground
+    private bool isCastingSpell; // Track if player is casting a spell
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -66,13 +69,15 @@ public class Character : MonoBehaviour
         spellSound = Resources.Load<AudioClip>("spell2");
         spellSound2 = Resources.Load<AudioClip>("spell1");
         hitSound = Resources.Load<AudioClip>("hit");
-
     }
 
     void Update()
     {
-        Move();
-        HandleJump();
+        if (currentHealth > 0 && !isCastingSpell)
+        {
+            Move();
+            HandleJump();
+        }
         HandleSpellsSelection();
         HandleSpellCasting();
     }
@@ -107,7 +112,7 @@ public class Character : MonoBehaviour
 
     void HandleJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             playerAnim.SetTrigger("jump");
             StartCoroutine(DelayedJump());
@@ -119,7 +124,10 @@ public class Character : MonoBehaviour
         yield return new WaitForSeconds(0.3f); // 1 second delay
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         jumpAudioSource.Play();
+        isGrounded = false; // Player is now in the air
     }
+
+    
 
     void HandleSpellsSelection()
     {
@@ -136,43 +144,40 @@ public class Character : MonoBehaviour
 
     void HandleSpellCasting()
     {
-        if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+        if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && !string.IsNullOrEmpty(selectedSkill))
         {
-            if (!string.IsNullOrEmpty(selectedSkill))
-            {
-                float requiredShadow = 0f;
+            float requiredShadow = 0f;
 
+            if (selectedSkill == "1")
+            {
+                requiredShadow = shadowSlider.maxValue * 0.2f;
+            }
+            else if (selectedSkill == "2")
+            {
+                requiredShadow = shadowSlider.maxValue * 0.1f;
+            }
+
+            if (shadowSlider.value >= requiredShadow)
+            {
+                isCastingSpell = true; // Player starts casting a spell
                 if (selectedSkill == "1")
                 {
-                    requiredShadow = shadowSlider.maxValue * 0.2f;
+                    StartCoroutine(EndSpellAnimation());
+                    TriggerParticleSystem(shadowBody);
+                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.1f));
+                    CastSpell2();
                 }
                 else if (selectedSkill == "2")
                 {
-                    requiredShadow = shadowSlider.maxValue * 0.3f;
+                    playerAnim.SetTrigger("spell");
+                    shadowBarAnim.SetTrigger("shake");
+                    StartCoroutine(ExecuteAfterDelay(1.0f));
+                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.1f));
                 }
-
-                if (shadowSlider.value >= requiredShadow)
-                {
-                    if (selectedSkill == "1")
-                    {
-                        StartCoroutine(EndSpellAnimation());
-                        TriggerParticleSystem(shadowBody);
-                        StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.2f));
-                        CastSpell2();
-
-                    }
-                    else if (selectedSkill == "2")
-                    {
-                        playerAnim.SetTrigger("spell");
-                        shadowBarAnim.SetTrigger("shake");
-                        StartCoroutine(ExecuteAfterDelay(1.0f));
-                        StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.3f));
-                    }
-                }
-                else
-                {
-                    Debug.Log("Not enough shadow energy.");
-                }
+            }
+            else
+            {
+                Debug.Log("Not enough shadow energy.");
             }
         }
     }
@@ -182,6 +187,7 @@ public class Character : MonoBehaviour
         yield return new WaitForSeconds(delay);
         TriggerParticleSystem(shadowBallCast);
         CastShadowBall();
+        isCastingSpell = false; // Player finishes casting a spell
     }
 
     void TriggerParticleSystem(GameObject particleSystemObject)
@@ -270,6 +276,7 @@ public class Character : MonoBehaviour
     IEnumerator EndSpellAnimation()
     {
         yield return new WaitForSeconds(2.3f); // spell animation duration
+        isCastingSpell = false; // Player finishes casting a spell
     }
 
     void Die()
@@ -292,6 +299,11 @@ public class Character : MonoBehaviour
             playerAnim.SetTrigger("damage");
             hitSpell();
             ReduceHealth(20f);
+        }
+
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true; // Player is back on the ground
         }
     }
 

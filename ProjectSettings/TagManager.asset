@@ -12,6 +12,7 @@ TagManager:
   - shadow
   - ballEnemy
   - light
+  - Ground
   layers:
   - Default
   - TransparentFX
