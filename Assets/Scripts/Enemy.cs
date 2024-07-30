@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
 
     private bool canFire = true;
     public AudioClip spellSound;
+    public AudioClip hitSound;
 
     void Start()
     {
@@ -46,6 +47,7 @@ public class Enemy : MonoBehaviour
         Debug.Log("Enemy initialized with max health: " + maxHealth);
 
         spellSound = Resources.Load<AudioClip>("enemyspell");
+        hitSound = Resources.Load<AudioClip>("hit");
     }
 
     void Update()
@@ -80,8 +82,19 @@ public class Enemy : MonoBehaviour
         {
             PlayEffect();
             angelAnim.SetTrigger("damage");
+            hitSpell();
             ReduceHealth(50f); // Reduce health by 50 units
         }
+    }
+
+    private void hitSpell()
+    {
+        GameObject tempAudio = new GameObject("TempAudio");
+        AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
+        audioSource.clip = hitSound;
+        audioSource.Play();
+
+        Destroy(tempAudio, audioSource.clip.length);
     }
 
     private void PlayEffect()

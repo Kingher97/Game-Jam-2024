@@ -38,6 +38,9 @@ public class Character : MonoBehaviour
 
     public AudioClip spellSound;
     public AudioClip spellSound2;
+    public AudioClip hitSound;
+    public AudioSource runningAudioSource;
+    public AudioSource jumpAudioSource;
 
     void Start()
     {
@@ -62,6 +65,8 @@ public class Character : MonoBehaviour
 
         spellSound = Resources.Load<AudioClip>("spell2");
         spellSound2 = Resources.Load<AudioClip>("spell1");
+        hitSound = Resources.Load<AudioClip>("hit");
+
     }
 
     void Update()
@@ -85,10 +90,18 @@ public class Character : MonoBehaviour
         if (moveHorizontal != 0 || moveVertical != 0)
         {
             playerAnim.SetBool("run", true);
+            if (!runningAudioSource.isPlaying)
+            {
+                runningAudioSource.Play();
+            }
         }
         else
         {
             playerAnim.SetBool("run", false);
+            if (runningAudioSource.isPlaying)
+            {
+                runningAudioSource.Stop();
+            }
         }
     }
 
@@ -105,6 +118,7 @@ public class Character : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f); // 1 second delay
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        jumpAudioSource.Play();
     }
 
     void HandleSpellsSelection()
@@ -243,6 +257,16 @@ public class Character : MonoBehaviour
         Destroy(tempAudio, audioSource.clip.length);
     }
 
+    private void hitSpell()
+    {
+        GameObject tempAudio = new GameObject("TempAudio");
+        AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
+        audioSource.clip = hitSound;
+        audioSource.Play();
+
+        Destroy(tempAudio, audioSource.clip.length);
+    }
+
     IEnumerator EndSpellAnimation()
     {
         yield return new WaitForSeconds(2.3f); // spell animation duration
@@ -266,6 +290,7 @@ public class Character : MonoBehaviour
         {
             PlayEffect();
             playerAnim.SetTrigger("damage");
+            hitSpell();
             ReduceHealth(20f);
         }
     }
