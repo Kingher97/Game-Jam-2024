@@ -5,6 +5,8 @@ public class HealthPotion : MonoBehaviour
     public GameObject model; // Reference to the model child
     public GameObject effect; // Reference to the effect child
 
+    public AudioClip potionSound;
+
     private ParticleSystem particleEffect;
 
     void Start()
@@ -26,6 +28,18 @@ public class HealthPotion : MonoBehaviour
         {
             Debug.LogError("Effect not assigned.");
         }
+
+        potionSound = Resources.Load<AudioClip>("potion");
+    }
+
+    private void potionAudio()
+    {
+        GameObject tempAudio = new GameObject("TempAudio");
+        AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
+        audioSource.clip = potionSound;
+        audioSource.Play();
+
+        Destroy(tempAudio, audioSource.clip.length);
     }
 
     void OnTriggerEnter(Collider other)
@@ -37,6 +51,7 @@ public class HealthPotion : MonoBehaviour
             {
                 character.IncreaseHealthSlider(35f);
                 ConsumePotion();
+                potionAudio();
             }
         }
     }

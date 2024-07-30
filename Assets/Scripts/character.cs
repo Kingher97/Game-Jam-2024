@@ -36,6 +36,9 @@ public class Character : MonoBehaviour
 
     private Coroutine lightDamageCoroutine; // Coroutine reference for continuous light damage
 
+    public AudioClip spellSound;
+    public AudioClip spellSound2;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -56,6 +59,9 @@ public class Character : MonoBehaviour
         {
             Debug.LogError("Particle Effect GameObject not assigned.");
         }
+
+        spellSound = Resources.Load<AudioClip>("spell2");
+        spellSound2 = Resources.Load<AudioClip>("spell1");
     }
 
     void Update()
@@ -138,6 +144,8 @@ public class Character : MonoBehaviour
                         StartCoroutine(EndSpellAnimation());
                         TriggerParticleSystem(shadowBody);
                         StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.2f));
+                        CastSpell2();
+
                     }
                     else if (selectedSkill == "2")
                     {
@@ -212,6 +220,27 @@ public class Character : MonoBehaviour
         projectile.SetActive(true);
         projectile.GetComponent<Rigidbody>().velocity = (end - start).normalized * spellRange * 0.5f;
         projectile.AddComponent<ShadowBall>();
+        CastSpell();
+    }
+
+    private void CastSpell()
+    {
+        GameObject tempAudio = new GameObject("TempAudio");
+        AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
+        audioSource.clip = spellSound;
+        audioSource.Play();
+
+        Destroy(tempAudio, audioSource.clip.length);
+    }
+
+    private void CastSpell2()
+    {
+        GameObject tempAudio = new GameObject("TempAudio");
+        AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
+        audioSource.clip = spellSound2;
+        audioSource.Play();
+
+        Destroy(tempAudio, audioSource.clip.length);
     }
 
     IEnumerator EndSpellAnimation()

@@ -6,6 +6,7 @@ public class ShadowPotion : MonoBehaviour
     public GameObject effect; // Reference to the effect child
 
     private ParticleSystem particleEffect;
+    public AudioClip potionSound;
 
     void Start()
     {
@@ -26,6 +27,18 @@ public class ShadowPotion : MonoBehaviour
         {
             Debug.LogError("Effect not assigned.");
         }
+
+        potionSound = Resources.Load<AudioClip>("potion");
+    }
+
+    private void potionAudio()
+    {
+        GameObject tempAudio = new GameObject("TempAudio");
+        AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
+        audioSource.clip = potionSound;
+        audioSource.Play();
+
+        Destroy(tempAudio, audioSource.clip.length);
     }
 
     void OnTriggerEnter(Collider other)
@@ -37,6 +50,7 @@ public class ShadowPotion : MonoBehaviour
             {
                 character.IncreaseShadowSlider(35f);
                 ConsumePotion();
+                potionAudio();
             }
         }
     }

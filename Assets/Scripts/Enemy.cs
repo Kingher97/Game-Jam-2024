@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour
     public float fireCooldown = 2f;
 
     private bool canFire = true;
+    public AudioClip spellSound;
 
     void Start()
     {
@@ -43,6 +44,8 @@ public class Enemy : MonoBehaviour
         }
 
         Debug.Log("Enemy initialized with max health: " + maxHealth);
+
+        spellSound = Resources.Load<AudioClip>("enemyspell");
     }
 
     void Update()
@@ -167,6 +170,18 @@ public class Enemy : MonoBehaviour
         Vector3 direction = (targetPosition - startPosition).normalized;
         rb.velocity = direction * spellRange * 0.5f;
         projectile.AddComponent<LightBall>();
+        CastSpell();
+
+    }
+
+    private void CastSpell()
+    {
+        GameObject tempAudio = new GameObject("TempAudio");
+        AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
+        audioSource.clip = spellSound;
+        audioSource.Play();
+
+        Destroy(tempAudio, audioSource.clip.length);
     }
 
     private IEnumerator FireAtPlayer()

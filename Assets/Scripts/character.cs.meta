@@ -3,7 +3,19 @@ guid: d07013206863b0b43946c11ad7bcdef4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - gameOverScreen: {instanceID: 0}
+  - crosshairImage: {instanceID: 0}
+  - healthSlider: {instanceID: 0}
+  - shadowSlider: {instanceID: 0}
+  - playerAnim: {instanceID: 0}
+  - healthBarAnim: {instanceID: 0}
+  - shadowBarAnim: {instanceID: 0}
+  - shadowBody: {instanceID: 0}
+  - shadowBallCast: {instanceID: 0}
+  - shadowBall: {instanceID: 0}
+  - particleEffectGameObject: {instanceID: 0}
+  - spellSound: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
