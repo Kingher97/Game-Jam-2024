@@ -164,6 +164,7 @@ public class Enemy : MonoBehaviour
             Debug.Log("Death animation triggered.");
             Destroy(healthBarSlider.gameObject); // Destroy the health bar
             Destroy(gameObject, 2f); // Destroy the game object after 2 seconds
+            this.enabled = false; // Deactivate the script
         }
         else
         {
