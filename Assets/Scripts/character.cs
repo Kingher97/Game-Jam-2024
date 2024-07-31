@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Character : MonoBehaviour
@@ -274,6 +275,11 @@ public class Character : MonoBehaviour
         if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true; // Player is back on the ground
+        }
+
+        if(other.gameObject.tag == "Finish")
+        {
+            SceneManager.LoadScene("End");
         }
     }
 
