@@ -15,7 +15,6 @@ public class Character : MonoBehaviour
     public Slider shadowSlider;
 
     private Rigidbody rb;
-    private string selectedSkill = "";
 
     public Animator playerAnim;
     public Animator healthBarAnim;
@@ -78,7 +77,7 @@ public class Character : MonoBehaviour
             Move();
             HandleJump();
         }
-        HandleSpellsSelection();
+
         HandleSpellCasting();
     }
 
@@ -127,53 +126,22 @@ public class Character : MonoBehaviour
         isGrounded = false; // Player is now in the air
     }
 
-    
-
-    void HandleSpellsSelection()
-    {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
-        {
-            selectedSkill = "1";
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            selectedSkill = "2";
-            Debug.Log("2 selected");
-        }
-    }
-
     void HandleSpellCasting()
     {
-        if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && !string.IsNullOrEmpty(selectedSkill))
+        if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)))
         {
             float requiredShadow = 0f;
-
-            if (selectedSkill == "1")
-            {
-                requiredShadow = shadowSlider.maxValue * 0.2f;
-            }
-            else if (selectedSkill == "2")
-            {
-                requiredShadow = shadowSlider.maxValue * 0.1f;
-            }
-
+            requiredShadow = shadowSlider.maxValue * 0.1f;
+          
             if (shadowSlider.value >= requiredShadow)
             {
                 isCastingSpell = true; // Player starts casting a spell
-                if (selectedSkill == "1")
-                {
-                    StartCoroutine(EndSpellAnimation());
-                    TriggerParticleSystem(shadowBody);
-                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.1f));
-                    CastSpell2();
-                }
-                else if (selectedSkill == "2")
-                {
-                    playerAnim.SetTrigger("spell");
-                    shadowBarAnim.SetTrigger("shake");
-                    StartCoroutine(ExecuteAfterDelay(1.0f));
-                    StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.1f));
-                }
+
+                playerAnim.SetTrigger("spell");
+                shadowBarAnim.SetTrigger("shake");
+                StartCoroutine(ExecuteAfterDelay(1.0f));
+                StartCoroutine(ReduceShadowSlider(shadowSlider.maxValue * 0.1f));
+               
             }
             else
             {
