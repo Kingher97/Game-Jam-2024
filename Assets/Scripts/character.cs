@@ -43,6 +43,7 @@ public class Character : MonoBehaviour
 
     private bool isGrounded; // Track if player is on the ground
     private bool isCastingSpell; // Track if player is casting a spell
+    private bool isCooldown; // Track if player is in cooldown state
 
     void Start()
     {
@@ -72,7 +73,7 @@ public class Character : MonoBehaviour
 
     void Update()
     {
-        if (currentHealth > 0 && !isCastingSpell)
+        if (currentHealth > 0 && !isCastingSpell && !isCooldown)
         {
             Move();
             HandleJump();
@@ -267,12 +268,20 @@ public class Character : MonoBehaviour
             playerAnim.SetTrigger("damage");
             hitSpell();
             ReduceHealth(20f);
+            StartCoroutine(Cooldown(1.0f)); // Start cooldown when hit by enemy ball
         }
 
         if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true; // Player is back on the ground
         }
+    }
+
+    private IEnumerator Cooldown(float duration)
+    {
+        isCooldown = true;
+        yield return new WaitForSeconds(duration);
+        isCooldown = false;
     }
 
     private void ReduceHealth(float amount)
